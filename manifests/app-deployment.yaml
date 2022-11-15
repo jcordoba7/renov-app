@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: renov-app
+  namespace: ${namespace}
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: renov-app
+  template:
+    metadata:
+      labels:
+        app: renov-app
+    spec:
+      containers:
+      - name: renov-container
+        image: ${OCIR_REGION}/${OCIR_STORAGE_NAMESPACE}/${MY_INITIALS}devops/${APP_MICROSERVICE}:${BUILDRUN_VERSION}
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "200m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
