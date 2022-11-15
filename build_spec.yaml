@@ -73,4 +73,3 @@ outputArtifacts:
   - name: service_yaml
     type: BINARY
     location: ${OCI_WORKSPACE_DIR}/${BUILD_SOURCE_NAME}/manifests/svc-deployment.yaml
-#
