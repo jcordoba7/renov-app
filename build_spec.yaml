@@ -52,7 +52,7 @@ steps:
     name: "Build container image"
     command: |
       cd ${OCI_WORKSPACE_DIR}/${BUILD_SOURCE_NAME}
-      docker build --pull --rm -t healthcare-app .
+      docker build --pull --rm -t renov-app .
     onFailure:
     - type: Command
       command: |
@@ -66,7 +66,7 @@ outputArtifacts:
     type: DOCKER_IMAGE
     # this location tag doesn't effect the tag used to deliver the container image
     # to the Container Registry
-    location: healthcare-app:latest
+    location: renov-app:latest
   - name: deployment_yaml
     type: BINARY
     location: ${OCI_WORKSPACE_DIR}/${BUILD_SOURCE_NAME}/manifests/app-deployment.yaml
