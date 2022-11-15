@@ -62,7 +62,7 @@ steps:
       runAs: root
 
 outputArtifacts:
-  - name: ${BUILD_SOURCE_NAME}_container_image
+  - name: renov_app_container_image
     type: DOCKER_IMAGE
     # this location tag doesn't effect the tag used to deliver the container image
     # to the Container Registry
