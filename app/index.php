@@ -68,7 +68,7 @@
       <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-sheet-1">
         <div class="u-border-3 u-border-white u-container-style u-group u-shape-rectangle u-group-1" data-animation-name="customAnimationIn" data-animation-duration="1500">
           <div class="u-container-layout u-valign-middle u-container-layout-1">
-            <h1 class="u-text u-text-default u-text-1">Interior Renovation </h1>
+            <h1 class="u-text u-text-default u-text-1">Interior Renovation (Edit test!) </h1>
             <p class="u-text u-text-default u-text-2"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. </p>
             <a href="https://nicepage.online" class="u-active-white u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-btn-round u-button-style u-hover-white u-none u-radius-50 u-text-active-palette-3-base u-text-hover-palette-3-base u-btn-1">learn more</a>
             <p class="u-text u-text-body-alt-color u-text-3">Image from <a href="https://www.freepik.com/photos/background" class="u-active-none u-border-1 u-border-no-left u-border-no-right u-border-no-top u-border-white u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-2" target="_blank">Freepik</a>
